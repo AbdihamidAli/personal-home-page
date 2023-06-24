@@ -1,0 +1,261 @@
+
+head{
+  color:white;
+}
+
+#title {
+  background: #1d3557;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+  margin-top: 150px;
+  color: #ccdf98;
+}
+#title:hover{
+  background: #809985;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+  margin-top: 150px;
+  color: #fcfcfc;
+  font-size: 35px;
+  
+}
+#t-3 {
+  background: #1d3557;
+  padding: 14px;
+  border-radius: 5px;
+  color: #ccdf98;
+  margin: 5px;
+  text-align: center;
+}
+#t-3:hover{
+  background: #809985;
+  border-radius: 5px;
+  color: #fcfcfc;
+  text-transform: uppercase;
+}
+#t-4 {
+  background: #49944f;
+  padding: 14px;
+  border-radius: 5px;
+  color: #ccdf98;
+  margin: 5px;
+  
+  text-align: center;
+}
+#t-4:hover{
+  background: #17802c;
+  border-radius: 5px;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+#font-s{
+font-family: "Audiowide", sans-serif;
+}
+#font-t{
+  font-family: "Abril Fatface" sans-serif;
+}
+.e-title {
+  text-align: center;
+  color: white;
+  margin: 5px;
+  padding: 5px 10px;
+  background: #436594;
+  font-size: 30px;
+  font-weight: bold;
+}
+.e-title:hover {
+  background: #1d3557;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+
+#b-ground {
+  height: 450px;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:4%;
+}
+
+body {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 3px; 
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(#d7d6e7, #93ac87, #ccdf98);
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
+background-color: #e0dfdf;
+
+}
+.card:hover {
+  background: linear-gradient(#a39edb, #80d7e2);
+}
+
+.column {
+float: left;
+width: 90%;
+padding: 0 10px;
+}
+
+
+.row {
+  display: grid;
+  grid-template-columns: 34% 34% 34%;
+
+}
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+@media screen and (max-width: 500px) {
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 100px;
+}
+}
+
+
+/* img {
+  
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:10%
+
+} */
+.top-3{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:10%;
+  
+
+}
+
+.avatar1 {
+  width: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin:10%
+
+  
+}
+
+.card1 {
+  width: 400px;
+  margin: 50px;
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #457b9d;
+  color: #2b2839;
+  padding: 20px;
+  background-color: #7ab691;
+  border-bottom: 6px solid #215702;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}    
+
+
+#title {
+  text-shadow: 0px 0px 4px black;
+}
+
+
+.underline {
+  border-bottom: 4px solid white;
+}
+
+.card-b {
+  width: 450px;
+  margin: 80px auto;
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: #7ab691;
+  color: #2b2839;
+  border-bottom: 6px solid #215702;
+  border-radius: 10px;
+}
+.border-blue {
+  border: 1px dotted #1d3557;
+}
+.card-b:hover {
+  width: 470px;
+  margin: 80px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(#b6f3e1, #93ac87, #ccdf98);;
+  color: #ffffff;
+  border-bottom: 6px solid #215702;
+  border-radius: 10px;
+  
+}
+.border-blue:hover {
+  border: 1px dotted #1d3557;
+}
+
+
+.card-img {
+  object-fit: cover;
+  width: 200px;
+  border-radius: 10px;
+  height: 300px;
+}
+.business-card-text {
+  width: 250px;
+  margin-left: 20px;
+}
+ 
+.container {
+  border: 288px solid #016a26;
+  height: 260px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.item {
+  width: 250px;
+  margin: 2px;
+  padding: 10px;
+  font-size: 50px;
+  
+ 
+}
